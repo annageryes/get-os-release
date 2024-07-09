@@ -9,4 +9,14 @@
         src: get_release.sh
         dest: /tmp/
 
+    - name: run get_release script
+      shell: /tmp/get_release.sh
+      args:
+        executable: /bin/bash
+      register: os_release
+
+    - name: print value
+      debug:
+        msg: "{{ os_release.stdout_lines }}"
+
 ...
