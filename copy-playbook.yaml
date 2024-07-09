@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  become: yes
+  tasks:
+    - name: copy script to hosts
+      copy:
+        mode: 0755
+        src: get_release.sh
+        dest: /tmp/
+
+...
