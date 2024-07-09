@@ -1,7 +1,7 @@
 # get-os-release - HW1
 Anna Geryes
 
-* DISCLAIMER:  This repository is build to work in specific enviroment provided by the HW and may not work properly outside of it*
+* DISCLAIMER:  This repository is build to work in specific enviroment provided with the HW and may not work properly outside of it*
 
 - run ``` ansible-playbook retrive-os-release-playbook.yaml ```
 
